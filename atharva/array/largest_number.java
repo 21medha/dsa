@@ -1,4 +1,4 @@
-package atharva.basic;
+package atharva.array;
 
 public class largest_number {
     public static void main(String[] args) {

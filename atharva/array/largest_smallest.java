@@ -1,4 +1,4 @@
-package atharva.basic;
+package atharva.array;
 
 import java.util.Arrays;
 
