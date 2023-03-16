@@ -1,6 +1,6 @@
-package atharva.strings.search_in_string;
+package atharva.strings;
 
-public class dart {
+public class search_in_string {
     public static void main(String[] args) {
         String str = "atharva";
         System.out.println(searchInString(str,'c'));
