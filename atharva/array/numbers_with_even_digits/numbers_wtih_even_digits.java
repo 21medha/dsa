@@ -1,4 +1,4 @@
-package atharva.array;
+package atharva.array.numbers_with_even_digits;
 
 public class numbers_wtih_even_digits {
 //    Given an array nums of integers, return how many of them contain an even number of digits.
