@@ -1,9 +1,9 @@
-package atharva.binary_search;
+package atharva.binary_search.smallest_letter;
 
 public class smallest_letter {
     public static void main(String[] args) {
         char[] arr = {'c','f','j'};
-        char target = 'h';
+        char target = 'z';
         System.out.println(smallestChar(arr,target));
     }
 
@@ -34,7 +34,11 @@ public class smallest_letter {
                 start = mid + 1;
             }
         }
-        return arr[0];
+        if(start >= arr.length)
+        {
+            return arr[0];
+        }
+        return arr[start];
 
     }
 }
